@@ -1,0 +1,31 @@
+html {
+    background-color: rgb(246, 171, 183);
+}
+
+#container {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#inner {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.text {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+img {
+    border: 3px black solid;
+}
+
+#forgive-btn-1 {
+    width: 45%;
+}
+
+#forgive-btn-2 {
+    width: 45%;
+}

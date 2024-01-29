@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me perdonas :c</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div id="container">
+        <div id="inner">
+            <h1 class="text">Me perdonas :C</h1>
+            <h2 class="text">Te extraño y te amo</h2>
+            <img src="./iggy.jpg" alt="iggy pidiendo por perdon" />
+        </div>
+        <hr />
+        <p class="text">Elige una opcion:</p>
+        <button id="forgive-btn-1">SI</button>
+        <button id="forgive-btn-2" disabled="true">NO</button>
+    </div>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var btn1 = document.getElementById('forgive-btn-1');
+
+      btn1.addEventListener('click', function() {
+        if (btn1.textContent === 'SI') {
+          alert('Gracias, te amo!');
+        }
+      });
+    });
+  </script>
+</html>
